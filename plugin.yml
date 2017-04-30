@@ -1,0 +1,9 @@
+name: MyLand
+main: MasterF\MyLand\MyLand
+author: MasterF
+api: [2.0.0, 3.0.0]
+version: 1.0.0
+
+commands:
+  mland:
+    usage: "/mland [ start | end | buy | invite | here | help ]"

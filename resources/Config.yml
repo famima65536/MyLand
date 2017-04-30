@@ -1,0 +1,9 @@
+
+# World Protect : 購入しないとワールドの変更を不可にすることができます
+worldprotect: []
+
+# Land Price : 1一当たりのブロックの値段を設定できます
+landprice: 10
+
+# Allow Overlap : 自分の土地の場合に重なることを許可する
+allow-overlap: false

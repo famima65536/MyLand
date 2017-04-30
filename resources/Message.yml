@@ -1,0 +1,32 @@
+land:
+  no-editable: "[!]§c変更できない土地です"
+  used-place: "[!]§cすでにこの土地は使用されています"
+  land-number: "[i]§aこの土地の番号は{%0}です"
+  error1: "[!]§c使用されていない土地です"
+  error2: "[!]§cこれはあなたの土地ではありません"
+system:
+  invite:
+    msg1: "[i]§a{%0}さんの土地: 番号({%1})に招待されました"
+    msg2: "[i]§a{%0}さんを土地: 番号({%1})に招待しました"
+    error1: "[!]§cすでに参加しています"
+  kick:   "[i]§a{%0}さんの土地: 番号({%1})からキックされました"
+
+player:
+  PositionSet: "[!]Pos{%0}をx: {%1}, z: {%2}に設定しました"
+  landPrice: "[?]この土地を購入しますか?(料金: {%0})"
+  buy: "[i]土地を購入しました(料金: {%0})"
+  buy-error:
+    error0: "[!]Posが設定されていません./mland start, /mland endで設定してください"
+    error1: "[!]§cお金が足りません"
+
+server:
+  error0: "PocketMoneyが見つかりませんでした"
+
+cmd:
+  help0: "§a  [?]HELP  -------------------"
+  help1: "/mland start  §6開始位置を指定します"
+  help2: "/mland end    §6終了位置を指定します"
+  help3: "/mland buy    §6指定範囲を購入します"
+  help4: "/mland here   §6現在位置の土地番号を表示"
+  help5: "/mland invite <id> <name> §6<id>の土地の編集権限を<name>に与えます"
+  error1: "引数が足りません"
